@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navigation</title>
+    <style>
+      .navBar {
+        background-color: #f59696;
+      }
+      .navBar ul{
+        overflow: auto; /*to avoid overflow of background*/
+      }
+      .navBar li {
+        float: left;
+        list-style: none; /* this will remove the dot which comes defaultly with list */
+        margin: 13px 20px;
+      }
+      .navBar li a {
+        padding: 3px;
+        text-decoration: none;
+        color: green;
+      } 
+      .search{
+        float:right;
+        padding: 10PX 100px;
+    margin: auto;
+      }
+      .navBar input{
+        border: 2px solid black;
+        border-radius: 15px;
+        padding: 3px 4px;
+        width: 129px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="navBar">
+        <ul>
+          <li><a>Home</a></li>
+          <li><a>About</a></li>
+          <li><a>Services</a></li>
+          <li><a>Contact us</a></li>
+          <div class="search">
+            <input type="text" name="search" id="serach" placeholder="search this website">
+          </div>
+        </ul>
+      </nav>
+    </header>
+  </body>
+</html>

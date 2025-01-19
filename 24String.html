@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Strings in javascript</title>
+  </head>
+
+  <body>
+    <div class="container" >
+    <h1>Lorem ipsum dolor sit.</h1>
+    <div id="content"></div>
+
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. At esse ex fugit
+      vel, mollitia rem atque voluptatem dolores ducimus animi laborum aliquid
+      sequi ad, quo doloribus inventore nulla accusamus eos.</p>
+    </div>
+    <script>
+        var string = 'thi"s';
+        var name = 'nishchal';
+        var channel = 'Code with Harry'
+        var message = 'Good boy'
+        var temp = `${name} is a nice person and he has ${channel} `;
+        var len = name.length;
+        console.log(temp);
+        console.log(`Length of name is \n ${len}`)
+        document.getElementById('content').innerHTML = '<h3> this is a heading></h3>';
+    </script>
+  </body>
+</html>
